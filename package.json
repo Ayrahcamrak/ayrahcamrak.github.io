@@ -12,7 +12,7 @@
     "react-ga": "^3.1.2",
     "react-scripts": "3.4.3"
   },
-  "homepage": "https://skarmach.github.io/",
+  "homepage": "https://ayrahcamrak.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
