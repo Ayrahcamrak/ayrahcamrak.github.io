@@ -28,52 +28,98 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University 66 of Waterloo",
-        "degree":"Bachelor of Applied Science degree",
+        "school":"University of Waterloo",
+        "degree":"Bachelor of Applied Science in Mechanical Engineering, Honours",
         "graduated":"April 2021",
         "description": [
           "Numberical Control of Machine Tools",
           "Finite Element Methods",
-          "Autonomous Mobile Robots, Non-metallic and Composite Materials, Computer-Aided Design, Robot Manipulators: Kinematics, Dynamics, Control, Advanced Dynamics and Vibrations, Manufacturing Processes, Intorduction to Control Systems, Heat Transfer 1, Fluid Mechanics 1 & 2, Thermodynamics 1 & 2, Kinematics and Dynamics of Machines"
+          "Autonomous Mobile Robots", 
+          "Non-metallic and Composite Materials", 
+          "Computer-Aided Design", 
+          "Robot Manipulators: Kinematics, Dynamics, Controls", 
+          "Advanced Dynamics and Vibrations", 
+          "Manufacturing Processes", 
+          "Intorduction to Control Systems", 
+          "Heat Transfer 1", 
+          "Fluid Mechanics 1 & 2", 
+          "Thermodynamics 1 & 2", 
+          "Kinematics and Dynamics of Machines"
         ]
       }
     ],
     "work":[
       {
+        "company":"KA Imaging",
+        "title":"Mechanical Designer",
+        "years":"May 2020 - Aug 2020",
+        "description": [
+          "Simulated and analysed the dynamics of a helicopter docked on a ship deck at various sea and wind conditions using Numerical Analysis",
+          "Investigated specific cases with unexpected erratic motion and analysed the cause to mitigate it",
+          "Organised, developed and conducted tests for the implementation of new batteries for the helicopter docking and handling system, and ensured that the product reached the specification required",
+          "Generated new CAD models, assemblies and drawings of the next generation test rigs for the helicopter docking systems using"
+        ]
+      },
+      {
         "company":"Curtiss-Wright Defense Solutions",
         "title":"Mechanical Engineer (Dynamic Analysis)",
-        "years":"Sep. 2019 - Exp. Dec. 2019",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "years":"Sep. 2019 - Dec. 2019",
+        "description": [
+          "Simulated and analysed the dynamics of a helicopter docked on a ship deck at various sea and wind conditions using Numerical Analysis",
+          "Investigated specific cases with unexpected erratic motion and analysed the cause to mitigate it",
+          "Organised, developed and conducted tests for the implementation of new batteries for the helicopter docking and handling system, and ensured that the product reached the specification required",
+          "Generated new CAD models, assemblies and drawings of the next generation test rigs for the helicopter docking systems using"
+        ]
       },
       {
         "company":"Besnovo",
         "title":"Mechanical Designer",
         "years":"Jan. 2019 - Apr. 2019",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description": [
+          "Redesigned the existing the Cable Management System to supply power to the Automated Guided Vehicle (AGV). New design 25% cheaper, 49% smaller and 38% lighter while having doubled the cable capacity",
+          "Conducted FEA (SolidWorks Simulations) tests on various parts and assemblies to optimize weight and stress levels",
+          "Created CAD models, assemblies and drawings of systems of varying sizes using SolidWorks",
+          "Integrated various large components onto a 6 meter long AGV (Automated Guided Vehicle) in a safely and quickly"
+        ]
       },
       {
         "company":"Waterloo Aerial Robotics Group (WARG)",
         "title":"Unmanned Aerial Vehicle (UAV) Designer",
         "years":"June 2018 - Aug. 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description": [
+          "Designed various parts and assemblies using SolidWorks and AutoCAD with a focus on manufacturability",
+          "Used various fabrication methods namely; laser cutter, machining tools and, FFF/FDM and SLA 3D printers",
+          "Conducted FEA tests (SolidWorks Simulations) on various parts and assemblies to optimize weight and stress",
+          "Optimized the wing mount for minimum wing deflection while being cost effective and light as possible"
+        ]
       },
       {
         "company":"University of Waterloo",
         "title":"3D Print Centre Engineering Assistant",
         "years":"Sep. 2017 - Dec. 2017",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description": [
+          "Operated and maintained production grade Fortus 360mc FFF/FDM 3D printers",
+          "Managed and tracked resources and finances of the facility using Microsoft Excel",
+          "Designed an enclosure for NaOH support remover using CATIA, resulting in a safer work-space",
+          "Improved operational efficiency} by creating an online order form, resulting in a decrease in order-to-production time by 60%"
+        ]
       },
       {
         "company":"Conscious Minds Co-operative",
         "title":"Web Developer Intern",
         "years":"Mar. 2017 - Apr. 2017",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description": [
+          "Used HTML/CSS to make a responsive website with the user interface and the user experience in focus"
+        ]
       },
       {
         "company":"Sustainable Risk Strategies",
         "title":"Associate",
         "years":"Jan. 2017 - Mar. 2017",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description": [
+          "Exhibited in-depth understanding of critical controls and risk management for the market of Userbubble™ software",
+          "Analysed the risk management industry in the mining industry to establish return on investment for the company and the total addressable market of more than 250 mining and, gas and oil sites affiliated to ICMM and/or MAC"
+        ]
       }
     ],
     "skills":[
