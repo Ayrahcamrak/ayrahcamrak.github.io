@@ -125,7 +125,7 @@
     "skills":[
       {
         "name":"SolidWorks",
-        "level":"60%"
+        "level":"80%"
       },
       {
         "name":"Creo",
@@ -133,22 +133,30 @@
       },
       {
         "name":"CATIA",
-        "level":"50%"
+        "level":"45%"
       },
       {
         "name":"MasterCAM",
-        "level":"90%"
+        "level":"45%"
       },
       {
         "name":"MatLab",
         "level":"80%"
       },
       {
+        "name":"Python",
+        "level":"50%"
+      },
+      {
+        "name":"SolidWorks Simulations",
+        "level":"70%"
+      },
+      {
         "name":"ANSYS",
         "level":"50%"
       },
       {
-        "name":"Additive Manufacturing (3D Printing): FFF/FDM and  SLA",
+        "name":"Additive Manufacturing (3D Printing): FFF/FDM and SLA",
         "level":"80%"
       },
       {
@@ -157,7 +165,7 @@
       },
       {
         "name":"Machining: Mill and Lathes",
-        "level":"80%"
+        "level":"70%"
       }
     ]
   },
