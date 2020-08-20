@@ -40,8 +40,12 @@ a:hover {
 .container{
     margin-top: 5%;
     margin-bottom: 5%;
-    width: 70vw;
+    width: 80vw;
     margin-left: 5%
+}
+
+.p_entry {
+    margin-top: 2%;
 }
 
 .title{
