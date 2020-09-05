@@ -2,7 +2,7 @@
   "main": {
     "name":"Sudip Karmacharya",
     "occupation":"Mechanical Engineering",
-    "description":"I am graduating in the spring 2021. I am excited about what next there is to learn and experience.",
+    "description":"I am graduating in the spring of 2021. I am excited about what next there is to learn and experience.",
     "image":"profilepic.jpg",
     "bio":"I am a mechanical engineer focusing on mechanical design, prototype fabrication, CAD modeling, Finite Element Analysis, and automation. I am passionate about designing and building interdisciplinary engineering solutions in a hands-on environment. I live by the ideas of self improvement in every facet of my life. My determination for excellence is complemented by a sense of humility to stay focused on my goals and learning.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
@@ -124,48 +124,16 @@
     ],
     "skills":[
       {
-        "name":"SolidWorks",
+        "name":"Product Development",
         "level":"80%"
       },
       {
-        "name":"Creo",
-        "level":"55%"
+        "name":"Rapid Prototyping",
+        "level":"85%"
       },
       {
-        "name":"CATIA",
-        "level":"45%"
-      },
-      {
-        "name":"MasterCAM",
-        "level":"45%"
-      },
-      {
-        "name":"MatLab",
-        "level":"80%"
-      },
-      {
-        "name":"Python",
-        "level":"50%"
-      },
-      {
-        "name":"SolidWorks Simulations",
-        "level":"70%"
-      },
-      {
-        "name":"ANSYS",
-        "level":"50%"
-      },
-      {
-        "name":"Additive Manufacturing (3D Printing): FFF/FDM and SLA",
-        "level":"80%"
-      },
-      {
-        "name":"Laser Cutting",
-        "level":"80%"
-      },
-      {
-        "name":"Machining: Mill and Lathes",
-        "level":"70%"
+        "name":"CAD and Analysis Tools",
+        "level":"90%"
       }
     ]
   },
