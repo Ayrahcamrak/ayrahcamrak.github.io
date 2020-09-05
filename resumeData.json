@@ -15,7 +15,7 @@
       "zip": " "
     },
     "website": " ",
-    "resumedownload":"/resume.pdf",
+    "resumedownload":"../resume.pdf",
     "social":[
       {
         "name":"linkedin",
@@ -54,10 +54,6 @@
         "title":"Mechanical Designer",
         "years":"May 2020 - Aug 2020",
         "description": [
-          "Simulated and analysed the dynamics of a helicopter docked on a ship deck at various sea and wind conditions using Numerical Analysis",
-          "Investigated specific cases with unexpected erratic motion and analysed the cause to mitigate it",
-          "Organised, developed and conducted tests for the implementation of new batteries for the helicopter docking and handling system, and ensured that the product reached the specification required",
-          "Generated new CAD models, assemblies and drawings of the next generation test rigs for the helicopter docking systems using"
         ]
       },
       {
