@@ -132,8 +132,12 @@
         "level":"85%"
       },
       {
-        "name":"CAD and Analysis Tools",
+        "name":"CAD",
         "level":"90%"
+      }
+      {
+        "name":"Analysis Tools",
+        "level":"70%"
       }
     ]
   },
