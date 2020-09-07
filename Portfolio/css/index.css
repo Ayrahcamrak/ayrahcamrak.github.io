@@ -110,6 +110,9 @@ div.library {
 #matlab {
     width: 800px;
 }
+#wing {
+    width: 800px;
+}
 
 div.library:hover {
     border: 1px solid hotpink;
