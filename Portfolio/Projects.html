@@ -9,14 +9,13 @@
            Sudip Karmacharya
            
            <div class ="menu">
-               <a href="Projects.html">Projects</a>
                <a href="https://ayrahcamrak.github.io/"> Back</a>
            </div>
            
        </div>
        
        <div class="container"> 
-        <div class = "title">Projects</div>
+        <div class = "title">Non-Engineering Projects</div>
         <div class="line-separator"></div>
         
         <ul>
@@ -40,361 +39,7 @@
                 </div>
              </li>
 
-            <li class = "p_entry">
-                <div class ="box"> 
-                    <div class = "subtitle"> Arctic Aeroponics System;
-                        <div class= "subsub">Jun. 2020 - Aug. 2020
-                        </div>
-                    </div>
-                    <div class="picbox">
                         
-                        <div class="library">
-                            <a target="_blank" href= "Pictures/AAfull.png">
-                                <img src= "Pictures/AAfull.png" width="300" height="200">
-                            </a>
-                            <div class="desc">Arctic Aeroponics system with a human model for scale.</div>
-                        </div>
-                        
-                        <div class="library">
-                            <a target="_blank" href= "Pictures/Total_Pic.png">
-                                <img src= "Pictures/Total_Pic.png" width="300" height="200">
-                            </a>
-                            <div class="desc">A) Total system CAD model.  B) Cut-section showing the insulating layer andthe inner cover and exterior cover.  C) CAD model showing the inner chambers without anycovers and insulation.</div>
-                        </div>
-                        
-                        <div class="library">
-                            <a target="_blank" href= "Pictures/Cylin.png">
-                                <img src= "Pictures/Cylin.png" width="300" height="200">
-                            </a>
-                            <div class="desc"> Cylindrical Plant Growth Space where the plants take root.  The cut-section is shown on the bottom.</div>
-                        </div>
-
-                    </div>
-                    <div class="description"> 
-                        <ul>
-                            <li class = "p_entry">Food insecurity is a problem that disproportionately affects Canadians in northern territories. This is especially frequent in places such as Nunavut where the winter temperatures can go as low as -50 degrees Celsius.</li>
-                            <li class = "p_entry">There exists a need for a system to maintain the least acceptable temperature, humidity, and nutrients to grow plants in the temperatures range of -50 deg C to 10 deg C, in order to provide a family unit of 3 people with produce and fight food insecurity in remote arctic communities </li>
-                            <li class = "p_entry">I was responsible for mechanical product design, Finite Element Analysis (using Abaqus) and control system implementation, while being the mechanical lead. </li>
-                                  
-                            <li class = "p_entry">Some of the few requirments (high level overview): 
-                                <ul>
-                                    <li>Functional: Being able to produce vegetables for a family of 3</li>
-                                    <li>Non-functional: Aesthetically pleasing, Easy to assemble and disassemble, Easy to maintain</li>
-                                </ul>
-                            </li>
-                            
-                            <li class = "p_entry">The hard part was to make a system that was manufacturable. Covid has created a logistical nightmare and its hard to source some stuff.  </li>
-                            <li class = "p_entry">One of the FEA test done is given <a style="color:red;" href="FEA.pdf" target="_blank">here</a>.</li>
-                            
-                        </ul>
-                    </div>
-                    
-                </div>
-             </li>
-
-            <li class = "p_entry">
-                <div class ="box"> 
-                    <div class = "subtitle"> Predicting 3D Printing Material Using Machine Learning;
-                        <div class= "subsub">Sept. 2020 - Present
-                        </div>
-                    </div>
-                    <div class="picbox">
-                        
-                        <div class="library" id ="flowchart">
-                            <a target="_blank" href= "Pictures/flowchart.jpg">
-                                <img src= "Pictures/flowchart.jpg" width="300" height="200">
-                            </a>
-                            <div class="desc">Rudimentary flowchart of the machine learning implementation process.</div>
-                        </div>
-                        
-                        
-                    </div>
-                    <div class="description"> 
-                        <ul>
-                            
-                            <li class = "p_entry">I performed data pre-processing including converting object data-type to integers data-type, standardization, feature scaling and data-splitting </li>
-                                  
-                            <li class = "p_entry">I trained and validated Linear Regression and Decision Tree Regression models in order to choose the best model for predicting material used for 3D Printing based on print settings</li>
-                            
-                            <li class = "p_entry">After that, I used the chosen model to predict 3D Printing materials for other datasets. The model was had an accuracy of 94.4\%.</li>
-                            <li class = "p_entry">Kaggle link <a style="color:red;" href="https://www.kaggle.com/skarmach/predicting-material-used-from-print-settings" target="_blank">here</a>.</li>
-                            
-                        </ul>
-                    </div>
-                    
-                </div>
-             </li>
-            
-            <li class = "p_entry">
-                <div class ="box"> 
-                    <div class = "subtitle"> MATLAB numerical analysis of 2D heat equation;
-                        <div class= "subsub">3B study term
-                        </div>
-                    </div>
-                    <div class="picbox">
-                        
-                        <div class="library" id = "matlab">
-                            <a target="_blank" href= "Pictures/MATLAD.PNG">
-                                <img src= "Pictures/MATLAD.PNG" width="300" height="200">
-                            </a>
-                            <div class="desc">The bottom base of the design with all the gears and the motors.</div>
-                        </div>
-                        
-                        
-                    </div> 
-                    <div class="description">
-                        <ul>
-                            
-                            <li class = "p_entry">I conducted a study to understand how fins can help cool down a part. The part here has its left side heated to a constant temperature. While the other surface is subject to convection. Also, the fin does not cover the entirety of the part when in use. So, the corners have to be taken into consideration as well. The environment was considered to be at 20 deg C. Radiation was not taken into consideration.</li>
-                            
-                            <li class = "p_entry">Firstly, I divided the part and the possible fin into different regions. Then, I derived the equations for each region. I decided to use symmetry of the geometry to my advantage and only calculated the values once. The number of nodes was left as an arbitrary value dependent on the spatial step size. </li>
-                            
-                            <li class = "p_entry">Then, the numerical analysis was implemented on MATLAB with vectorization because it was thought to be as more efficient method.</li>
-                            
-                            <li class = "p_entry">Four studies were done: study without a fin, with a fin and steady state with a corrective addiabatic tip, with a fin and steady state without a corrective addiabatic tip and, with a fin and unsteady state without a corrective addiabatic tip. The last one with the unsteady state is the most accurate but the difference between it and the steady state with corrective tip isnt high. Also, I decided that the fin wasn't that good because the surface of the part didnt decrease that much in temperature. </li>
-                            
-                            <li class = "p_entry">I could have made it more realistic by making it 3D and including radiation. </li>
-                            
-                        </ul>
-                    </div>
-                    
-                </div>
-             </li>
-            <li class = "p_entry">
-                <div class ="box"> 
-                    <div class = "subtitle"> Stewart Platform;
-                        <div class= "subsub">3B study term
-                        </div>
-                    </div>
-                    <div class="picbox">
-                        
-                        <div class="library">
-                            <a target="_blank" href= "Pictures/CAD-bottom.png">
-                                <img src= "Pictures/CAD-bottom.png" width="300" height="200">
-                            </a>
-                            <div class="desc">The bottom base of the design with all the gears and the motors.</div>
-                        </div>
-                        
-                        <div class="library">
-                            <a target="_blank" href= "Pictures/CAD-total.png">
-                                <img src= "Pictures/CAD-total.png" width="300" height="200">
-                            </a>
-                            <div class="desc">CAD of final design of the stewart platform. </div>
-                        </div>
-                        
-                        <div class="library">
-                            <a target="_blank" href= "Pictures/Fabrication-bottom.jpg">
-                                <img src= "Pictures/Fabrication-bottom.jpg" width="300" height="200">
-                            </a>
-                            <div class="desc">Fabricated bottom base without the motors.</div>
-                        </div>
-                        
-                        
-                        <div class="library">
-                            <a target="_blank" href= "Pictures/Fabrication-rods.jpg">
-                                <img src= "Pictures/Fabrication-rods.jpg" width="300" height="200">
-                            </a>
-                            <div class="desc">Final mechanical design. </div>
-                        </div>
-                        
-                        <div class="library">
-                            <a target="_blank" href= "Pictures/strong.jpg">
-                                <img src= "Pictures/strong.jpg" width="300" height="200">
-                            </a>
-                            <div class="desc">Final design with a 5 kg load. </div>
-                        </div>
-                        
-                                              
-                    
-                    </div>
-                    <div class="description"> 
-                        <ul>
-                            
-                            <li class = "p_entry">I designed and built a Stewart Platform to solve a marble maze placed on top of it. There were two design objectives. Maximize Repeatability: Maximize the number of times the maze can be solved automatically. Maximize Structural Strength: Maximize the structural strength of the model.</li>
-                            
-                            <li class = "p_entry">I was responsible for designing a Stewart's Platform to solve a marble maze puzzle focusing on Design for Manufacturing and Design for Assembly. I also conducted Finite Element Analysis to ensure the final design could withstand a static load of 5 kg. I also designed and conducted various tests to ensure the product's compliance to the key specifications. </li>
-                            
-                        </ul>
-                    </div>
-                    
-                </div>
-             </li>
-            
-            <li class = "p_entry">
-                <div class ="box"> 
-                    <div class = "subtitle"> Upgrading 600 series cable management system;
-                        <div class= "subsub">Mechanical Designer at Besnovo
-                        </div>
-                    </div>
-                    <div class="picbox">
-                        
-                        <div class="library">
-                            <a target="_blank" href= "Pictures/CRP_Problem.jpg">
-                                <img src= "Pictures/CRP_Problem.jpg" width="300" height="200">
-                            </a>
-                            <div class="desc">The red arrows point to the cable management system while the AGV is at different locations of the aircraft. The design needs to make sure the cables have a direct access to the AGV.</div>
-                        </div>
-                        
-                        <div class="library">
-                            <a target="_blank" href= "Pictures/CRP_V1.png">
-                                <img src= "Pictures/CRP_V1.png" width="300" height="200">
-                            </a>
-                            <div class="desc">CAD of V1 Cable Reel Platform (CRP). The design I inherited. </div>
-                        </div>
-                        
-                        <div class="library">
-                            <a target="_blank" href= "Pictures/conceptual designs.PNG">
-                                <img src= "Pictures/conceptual designs.PNG" width="300" height="200">
-                            </a>
-                            <div class="desc">Conceptual designs</div>
-                        </div>
-                        
-                        
-                        <div class="library">
-                            <a target="_blank" href= "Pictures/CRP_V2.png">
-                                <img src= "Pictures/CRP_V2.png" width="300" height="200">
-                            </a>
-                            <div class="desc">Final design</div>
-                        </div>
-                        
-                                              
-                    
-                    </div>
-                    <div class="description"> 
-                        <ul>
-                            
-                            <li class = "p_entry">Overview: 600 series, a laser de-coating solution by Besnovo Inc., has a set of large components that are mounted on an Automated Guided Vehicle (AGV). In order to power these components while maintaining a safe and organized workspace, a need existed for a system to organize and supply 6 cable reels with power, acting as an intermediary unit between the AGV components and an external power source </li>
-                            
-                            <li class = "p_entry">Problem: A solution already existed in the form of V1 Cable Reel Platform (CRP) as seen in Figure 1. However, this mobile platform can only house 3 cable reels which can accommodate a cable each. Therefore, the objective was to design a new version of the CRP system, V2 CRP, with the reel capacity of 6 reels while maintaining the cost of the previous design, V1 CRP system.</li>
-                            
-                            <li class = "p_entry">What I did: I was responsible for the redesigning, FEA on the redesign and reporting the results to my suervisor. In order to do so, first conceptual designs for housing 6 cable reels were cre-ated. Then, in order to incorporate that functionality into the main design, various smaller design changes had to be made. After which, the design had to go through various tests in order to verify structural safety and adherence to its functional requirements.</li>
-                            
-                            <li class = "p_entry">The V2 CRP system, as seen in Figure 2, manages to combine two cable reels into one swivel base. The first cable reel is in the default configuration. While, the second cable reel is rotated 180 degrees around the vertical axis, and the cable reel outlet adapter rotated 180 degrees. This design minimized the amount of space used per each reel. However, that also infers that there is more load concentrated on the frame at the specific point where the two reels areplaced. Also, this method requires an intermediary plate betweenthe swivel-base and the two cable reels to secure the cable reels tothe swivel base. Therefore, two FEA tests had to be done, one onthe base frame and the other on the interface plate.</li>
-                            
-                            <li class = "p_entry">The FEA studies demonstrated that the V2 CRP can withstand theload of 6 cable reels with minimal deflection. The tipping calculations also demonstrated that the V2 CRP design can withstand thetension forcesfrom the cableswithout the systemtipping over. The final design is of the V2 CRP exceeded expectations set earlier in the design lifecycle.</li>
-                            
-                            <li class = "p_entry">The design decreased the material cost by 25% cheaper, 49% smaller and 38% lighter while having doubled the cable capacity and meeting all the other non-functional requirements. The design also met the functional requirements by increasing the cable reel capacity to 6 cable reels while allowing those cable reels at least 90 degrees of free motion.</li>
-                            
-                            
-                            <li class = "p_entry">What I learned: I learned a lot about designing here, from conceptualisation to analysis.</li>
-                        </ul>
-                    </div>
-                    
-                </div>
-             </li>
-            
-            <li class = "p_entry">
-                <div class ="box"> 
-                    <div class = "subtitle"> Project Boreas;
-                        <div class= "subsub">UAV Designer at University of Waterloo Aerial Robotics Group (WARG)
-                        </div>
-                    </div>
-                    <div class="picbox">
-                        
-                         <div class="library">
-                            <a target="_blank" href= "Pictures/parts-cad-ass.png">
-                                <img src= "Pictures/parts-cad-ass.png" width="300" height="200">
-                            </a>
-                            <div class="desc">CAD of the wing mount assembly</div>
-                        </div>
-                        
-                        <div class="library">
-                            <a target="_blank" href= "Pictures/Wing.png">
-                                <img src= "Pictures/Wing.png" width="300" height="200">
-                            </a>
-                            <div class="desc">Wings assemblies CAD. Notice the motor mount on each wing.</div>
-                        </div>
-                        
-                        
-                        <div class="library">
-                            <a target="_blank" href= "Pictures/full ass.png">
-                                <img src= "Pictures/full ass.png" width="300" height="200">
-                            </a>
-                            <div class="desc">CAD of the assembly of the plane including the fuselage and the nose cone which I did not design. I designed the wings, tail and the connectors.</div>
-                        </div>
-                        
-                        
-                        <div class="library">
-                            <a target="_blank" href= "Pictures/Fab1.jpg">
-                                <img src= "Pictures/Fab1.jpg" width="300" height="200">
-                            </a>
-                            <div class="desc">Assembly of the fabricated wing connector.</div>
-                        </div>
-                        
-                        <div class="library" id = "wing">
-                            <a target="_blank" href= "Pictures/wing-rel.jpg">
-                                <img src= "Pictures/wing-rel.jpg" width="300" height="200">
-                            </a>
-                            <div class="desc">Assembly of the fabricated wing with the connector.</div>
-                        </div>
-                        
-                         <div class="library">
-                            <a target="_blank" href= "Pictures/wngcnt1.jpg">
-                                <img src= "Pictures/wngcnt1.jpg" width="300" height="200">
-                            </a>
-                            <div class="desc">A closeup of the fabricated connector.</div>
-                        </div>
-                        
-                        <div class="library">
-                            <a target="_blank" href= "Pictures/wngmnt-rel.jpg">
-                                <img src= "Pictures/wngmnt-rel.jpg" width="300" height="200">
-                            </a>
-                            <div class="desc">A closeup of the motor mount.</div>
-                        </div>
-                        
-                                              
-                    
-                    </div>
-                    <div class="description"> 
-                        <ul>
-                            <li class = "p_entry">Overview: Project Boreas, a project by University of Waterloo Aerial Robotics Group (WARG), is a fixed-wing aircraft projected to fly approximately 5 times before retirement. One of the major challenge swas to connect the wing to the fuselage of the plane.</li>
-                            <li class = "p_entry">What I did: I designed the wings, the tail, the wing mounts, the motor mounts and the tail mount.I used SolidWorks to make the individual CAD files and the assemblies. Also used AutoCAD to make imprints for laser cutter.I also fabricated parts using a laser cutter, FDM/FFF and SLA 3D Printers and laser cutter.</li>
-                            <li class = "p_entry">The final version of the wing mounts, consisted on threeparts; fuselage connector which was made of PET thermoplastic, spar connector which was made from aluminum and the inner lining which was made from rubber. </li>
-                            <li class = 'p_entry'>What I learned: I learned a lot about different materials and fabrications methods.</li>
-                        </ul>
-                    </div>
-                    
-                    
-                </div>
-             </li> 
-            
-            <li class = "p_entry">
-                <div class ="box"> 
-                    <div class = "subtitle"> Cell-phone stand project;
-                        <div class= "subsub">3D Print Centre Engineering Assistant | Nov 2017 - Dec 2017
-                        </div>
-                    </div>
-                    <div class="picbox">
-                            <div class="library">
-                                <a target="_blank" href= "Pictures/cell-phone.jpg">
-                                <img src= "Pictures/cell-phone.jpg" width="300" height="200">
-                                </a>                               
-                                <div class="desc">Part of the cell phone stands that I had printed</div>
-                             
-                        </div> 
-                    </div>
-                    <div class="description"> 
-                        
-                        <ul>
-                            <li class = "p_entry">
-                               The 1st year mechanical engineering students taking ME100 course were assigned a project where they had to design and 3D print a cell-phone stand. They were required to limit the volume of material usage to a certain amount. I was responsible for 3D printing the cell-phone stands for all 1st year mechanical engineering students. During this time, I was also responsible for maintaining regular printing service for regular customers of the 3D Print Centre.                       
-                            </li>
-                            <li class = "p_entry">
-                                Before the printing process, I gave lectures to 400 students and around 10 TAs about the 3D printing process and efficient ways of 3D printing to limit the amount of support material used.
-                            
-                            </li>
-                            <li class = "p_entry">
-                                I worked with the University of Waterloo's IT department and Professors to get GrabCAD Print in some of the computer labs to help students keep track of the amount of materials. I also worked with Cimetrix Inc. to diagnose a problem with one of the two 3D printing machines which happened on the 3rd day of production. The machine had to be shut off for the rest of the production. I was left with one 3D Printer for the rest of production</li>
-                            <li class = "p_entry">
-                                By the end, I had printed ~380 cell-phone stands in about a week while maintaining regular printing service for other customers.
-                            </li>
-                        </ul>
-                    </div>
-                    
-                    
-                
-                </div>
-             </li>  
             
             <li class = "p_entry">
                 <div class ="box"> 
@@ -416,9 +61,12 @@
                     </div>
                     
                     <div class="description">
-                    I only joined the project midway through the planning phase. There was only one other person working then. I took over from her as she decieded it was too much for her. So, I took over the reins and build on top of her ideas. I was responsible for planning and excecution of the project. I was also responsible for the resource management of the project. The project was 8 months long. During that time, I worked 2.5+ hours every day excluding weekends and holidays. For the most part of the project, I had to work on my own as I had troubles recruting team members for the project.
-                        
-                    Unforutnately, despite working for 8 months, 2.5+ hours every working day, I had to rush quite a bit to get it done. It was a massive project for me. I had never done anything like it before. I think with more time and directions from a more experienced artist, I could have done a much better job.
+                        <ul>
+                            <li class = "p_entry">Independently led the excecution phase of the process.</li>   
+                            <li class = "p_entry">Expedited the project by working before 1st period and after the final period in high school, about 2.5+ hrs per day. </li>
+                            <li class = "p_entry">Managed resources including recruiting team members. However, due to the time commitment of the project and no volunteering hours provided as a compensation, it was hard to find permanent members.</li>
+                            <li class = "p_entry">This was a massive project for just me alone. It took me 8 months to finish it. But I am still pround of what I managed to achieve despite all of the challenges including a leaky library roof.</li>  
+                        </ul>
                     </div>
                 </div>
             </li>
@@ -452,7 +100,10 @@
                     </div>
                     
                     <div class="description">
-                    In memories of a Canadian war hero, and a graduate of my highschool; WInston Churchill CI School; I was invited to a select to a team of talented artist to design and paint a mural. I was part of the project from the planning stage all the way to the excecution of it.
+                        <ul>
+                            <li class = "p_entry">I was invited to a select to a team of talented artist to design and paint a mural comemorating a graduate from my high school.</li>   
+                            <li class = "p_entry">I was part of the project from the planning stage all the way to the excecution stage.</li>   
+                        </ul>
                     </div>
                 </div>
             </li>
